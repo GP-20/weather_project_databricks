@@ -41,7 +41,7 @@ for key, grp in plot_df.groupby(['city_name']):
 
 ax.legend(loc='center left', bbox_to_anchor=(1.1, 0.5),fontsize=12)
 plt.grid()
-plt.savefig('/dbfs/mnt/weatherprojectdl/presentation/images/yearly_average.png', bbox_inches='tight')
+plt.savefig('/Workspace/Repos/gdata20@outlook.com/weather_project_databricks/Notebooks/reports/images/yearly_average.png', bbox_inches='tight')
 
 
 # COMMAND ----------
@@ -72,7 +72,7 @@ for key, grp in plot_df_daily_north.groupby(['city_name']):
 
 ax.legend(loc='center left', bbox_to_anchor=(1.1, 0.5),fontsize=12)
 plt.grid()
-plt.savefig('/dbfs/mnt/weatherprojectdl/presentation/images/hourly_north.png', bbox_inches='tight')
+plt.savefig('/Workspace/Repos/gdata20@outlook.com/weather_project_databricks/Notebooks/reports/images/hourly_north.png', bbox_inches='tight')
 
 
 
@@ -99,7 +99,7 @@ for key, grp in plot_df_daily_center.groupby(['city_name']):
 
 ax.legend(loc='center left', bbox_to_anchor=(1.1, 0.5),fontsize=12)
 plt.grid()
-plt.savefig('/dbfs/mnt/weatherprojectdl/presentation/images/hourly_center.png', bbox_inches='tight')
+plt.savefig('/Workspace/Repos/gdata20@outlook.com/weather_project_databricks/Notebooks/reports/images/hourly_center.png', bbox_inches='tight')
 
 # COMMAND ----------
 
@@ -124,7 +124,7 @@ for key, grp in plot_df_daily_south.groupby(['city_name']):
 
 ax.legend(loc='center left', bbox_to_anchor=(1.1, 0.5),fontsize=12)
 plt.grid()
-plt.savefig('/dbfs/mnt/weatherprojectdl/presentation/images/hourly_south.png', bbox_inches='tight')
+plt.savefig('/Workspace/Repos/gdata20@outlook.com/weather_project_databricks/Notebooks/reports/images/hourly_south.png', bbox_inches='tight')
 
 # COMMAND ----------
 
@@ -162,4 +162,4 @@ title_day = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 ax.set_title(f'Maximum and minimum temperatures on {title_day}',size=15)
 ax.set_xticks(x + width, cities)
 ax.legend(loc='center left', bbox_to_anchor=(1.1, 0.5),fontsize=12)
-plt.savefig('/dbfs/mnt/weatherprojectdl/presentation/images/max_and_min.jpeg', bbox_inches='tight')
+plt.savefig('/Workspace/Repos/gdata20@outlook.com/weather_project_databricks/Notebooks/reports/images/max_and_min.jpeg', bbox_inches='tight')
