@@ -13,7 +13,7 @@ Weather Project is a weather monitoring tool for 11 cities in Mexico. This perso
 
 ## Technologies Used
 
-- Azure Data Factory [Azure Data Factory repo](https://github.com/GP-20/weather_project_pipeline/tree/main)
+- Azure Data Factory - [Azure Data Factory repo](https://github.com/GP-20/weather_project_pipeline/tree/main)
 - Azure Data Lake Storage
 - Databricks
 - Python
